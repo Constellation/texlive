@@ -7,8 +7,7 @@ RUN apt-get -y update
 RUN apt-get -y upgrade
 RUN apt-get install -y \
     texlive \
-    texlive-base
-    texlive \
+    texlive-base \
     texlive-lang-cjk \
     texlive-fonts-recommended \
     texlive-fonts-extra \
